@@ -235,7 +235,7 @@ module.exports = XeonBotInc = async (XeonBotInc, m, chatUpdate, store) => {
 				  badword: false,
                   antiforeignnum: false,
                   antibot: false,
-                  antiviewonce: false,
+                  antiviewonce: true,
                   antispam: false,
                   antivirtex: false,
                   antimedia: false,
@@ -16789,8 +16789,8 @@ break
             const a = db.users[sender]
             const me = m.sender
 			const xmenu_oh = `
-╭──⊡「 *GREETING* 」⊡
-├${setv} *Hi 👋*
+╭──⊡「 *MALIK-BOT*」⊡
+├${setv} *ASSALAMUALAIKUM*
 ├${setv} *${m.pushName}* 
 ├${setv} *${xeonytimewisher} 🥰* 
 ╰─┬────⊡ ${readmore}
